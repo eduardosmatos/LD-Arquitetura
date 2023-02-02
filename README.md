@@ -16,7 +16,7 @@ As seguintes ferramentas serão usadas na construção do projeto:
   <img align="center" alt="Du-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div>
 
-### 🔗 Link do Figma: 
+### 🔗 Link do Figma: https://www.figma.com/file/g7QNuH1WlHXv4mLwWyCPYi/Site-LD-Arquitetura?t=RBm4iMX1J5qBPJ4G-6
 
 ### 🧑🏻‍💻 Autores
 
