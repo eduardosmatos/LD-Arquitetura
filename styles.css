@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+}
+
+a img {
+    width: 100px;
+    height: 100px;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    font-family: 'Libre Baskerville', serif;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.menu li {
+    text-transform: lowercase;
+}
+
+.menu li a {
+    color: #777777;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #66102C;
+    transition: 1s;
+}
