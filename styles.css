@@ -11,9 +11,8 @@ body {
 header {
     align-items: center;
     display: flex;
-    height: 100px;
+    height: 150px;
     justify-content: space-around;
-    padding: 10px;
 }
 
 .logo {
