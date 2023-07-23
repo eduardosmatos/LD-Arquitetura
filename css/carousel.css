@@ -1,0 +1,65 @@
+section.carrossel {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slide {
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slide input {
+    /* display: none; */
+}
+
+.slide-caixa {
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.slide-caixa img {
+    width: 100%;
+}
+
+.nav-manual, .nav-auto {
+    position: absolute;
+    width: 100%;
+    margin-top: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-manual .manual-btn, .nav-auto div {
+    border: 1px solid #6f6f6f;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #6f6f6f;
+}
+
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.nav-manual .manual-btn:hover {
+    background-color: white;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1 {
+    background-color: white;
+}
+
+#radio2:checked ~ .nav-auto .auto-btn2 {
+    background-color: white;
+}
+
+#radio3:checked ~ .nav-auto .auto-btn3 {
+    background-color: white;
+}
