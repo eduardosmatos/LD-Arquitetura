@@ -1,26 +1,27 @@
 section.carrossel {
     margin: 0 auto;
     width: 100%;
-    height: auto;
+    height: 810px;
     padding: 0;
     overflow: hidden;
 }
 
 .slide {
     width: 400%;
-    height: auto;
+    height: 810px;
     display: flex;
 }
 
 .slide input {
-    /* display: none; */
+    display: none;
 }
 
 .slide-caixa {
     width: 25%;
-    height: auto;
+    height: 810px;
     position: relative;
     text-align: center;
+    transition: 1s;
 }
 
 .slide-caixa img {
@@ -37,29 +38,34 @@ section.carrossel {
 
 .nav-manual .manual-btn, .nav-auto div {
     border: 1px solid #6f6f6f;
-    padding: 10px;
+    padding: 5px;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.5s;
-    background-color: #6f6f6f;
 }
 
 .nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child) {
-    margin-right: 2rem;
+    margin-right: 1.5rem;
 }
 
 .nav-manual .manual-btn:hover {
     background-color: white;
 }
 
-#radio1:checked ~ .nav-auto .auto-btn1 {
-    background-color: white;
-}
-
-#radio2:checked ~ .nav-auto .auto-btn2 {
-    background-color: white;
-}
-
+#radio1:checked ~ .nav-auto .auto-btn1,
+#radio2:checked ~ .nav-auto .auto-btn2,
 #radio3:checked ~ .nav-auto .auto-btn3 {
     background-color: white;
+}
+
+#radio1:checked ~ .primeiro {
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .primeiro {
+    margin-left: -50%;
 }
