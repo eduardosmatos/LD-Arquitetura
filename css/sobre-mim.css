@@ -1,0 +1,14 @@
+.sobre-mim {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    color: #66102C;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.sobre-mim-conteudo {
+    
+}
