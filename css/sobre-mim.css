@@ -1,14 +1,26 @@
-.sobre-mim {
-    display: flex;
-    justify-content: center;
-}
-
 .titulo {
     color: #66102C;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
     text-transform: uppercase;
+    padding: 5rem 0 3rem 0;
 }
 
 .sobre-mim-conteudo {
-    
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.sobre-mim-img {
+    width: 400px;
+}
+
+.sobre-mim-texto {
+    font-size: 1.5rem;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 2.5rem;
+    width: 700px;
 }
