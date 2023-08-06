@@ -1,0 +1,32 @@
+#servicos {
+    background-color: #f4f4f4;
+}
+
+.servicos-conteudo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.servicos-tipos {
+    width: 25%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.servicos-img {
+    width: 150px;
+}
+
+.servicos-titulo {
+    color: #66102C;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 23px;
+    padding: 1.5rem 0;
+}
+
+.servicos-texto {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 19px;
+    line-height: 2rem;
+}
