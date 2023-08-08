@@ -1,0 +1,14 @@
+.projetos-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projetos-img {
+    width: 25%;
+    height: 350px;
+}
+
+.projetos-img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
